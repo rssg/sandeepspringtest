@@ -2,8 +2,8 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="/spring-test/war/WEB-INF/lib/commons-logging-1.0.jar"/>
-	<classpathentry kind="lib" path="/spring-test/war/WEB-INF/lib/spring.jar"/>
-	<classpathentry kind="lib" path="/spring-test/war/WEB-INF/lib/spring-webmvc.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-logging-1.0.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/spring.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-webmvc.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
