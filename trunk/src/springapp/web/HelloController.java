@@ -1,6 +1,7 @@
 package springapp.web;
 
 import org.springframework.web.servlet.mvc.Controller;
+import java.util.Date;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.ServletException;
@@ -19,9 +20,12 @@ public class HelloController implements Controller {
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        logger.info("Returning hello view");
+        String now = (new Date()).toString();
+        System.out.println("reached controller");
+        logger.info("Returning hello view with " + now);
 
-        return new ModelAndView("hello.jsp");
+        return new ModelAndView("WEB-INF/jsp/hello.jsp", "now", now);
+
     }
 
 }
