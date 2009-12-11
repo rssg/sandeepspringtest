@@ -20,7 +20,21 @@
         </fileset>
         <pathelement path="${build.dir}"/>
     </path>
+    <target name="clean" description="Clean output directories">
+        <delete>
+            <fileset dir="${build.dir}">
+                <include name="**/*.class"/>
+            </fileset>
+        </delete>
+    </target>
 
+    <target name="undeploy" description="Un-Deploy application">
+        <delete>
+            <fileset dir="${deploy.path}/${name}">
+                <include name="**/*.*"/>
+            </fileset>
+        </delete>
+    </target>
     <target name="usage">
         <echo message=""/>
         <echo message="${name} build file"/>
