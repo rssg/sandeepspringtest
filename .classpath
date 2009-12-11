@@ -7,8 +7,8 @@
 	<classpathentry kind="lib" path="war/WEB-INF/lib/spring.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/spring-webmvc.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/junit-4.8.1.jar"/>
-	<classpathentry kind="lib" path="war/WEB-INF/lib/servlet-api.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/jstl.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
